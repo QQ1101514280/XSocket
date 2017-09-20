@@ -466,6 +466,7 @@
 				49A819B31F72117B00C06385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49A819D51F7212BA00C06385 /* Build configuration list for PBXNativeTarget "SocketServer" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +475,7 @@
 				49A819D71F7212BA00C06385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
