@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SocketServer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>XSocket.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>49A819991F72117B00C06385</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49A819C31F7212BA00C06385</key>
 		<dict>
 			<key>primary</key>
 			<true/>

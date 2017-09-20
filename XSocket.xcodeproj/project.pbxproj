@@ -9,10 +9,20 @@
 /* Begin PBXBuildFile section */
 		49A8199F1F72117B00C06385 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A8199E1F72117B00C06385 /* main.m */; };
 		49A819A21F72117B00C06385 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819A11F72117B00C06385 /* AppDelegate.m */; };
-		49A819A51F72117B00C06385 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819A41F72117B00C06385 /* ViewController.m */; };
 		49A819A81F72117B00C06385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A819A61F72117B00C06385 /* Main.storyboard */; };
 		49A819AA1F72117B00C06385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A819A91F72117B00C06385 /* Assets.xcassets */; };
 		49A819AD1F72117B00C06385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A819AB1F72117B00C06385 /* LaunchScreen.storyboard */; };
+		49A819BC1F7211CA00C06385 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819B51F7211CA00C06385 /* ChatViewController.m */; };
+		49A819BD1F7211CA00C06385 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819B71F7211CA00C06385 /* GCDAsyncSocket.m */; };
+		49A819BE1F7211CA00C06385 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819B91F7211CA00C06385 /* MainViewController.m */; };
+		49A819BF1F7211CA00C06385 /* ServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819BB1F7211CA00C06385 /* ServerViewController.m */; };
+		49A819C81F7212BA00C06385 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819C71F7212BA00C06385 /* AppDelegate.m */; };
+		49A819CB1F7212BA00C06385 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819CA1F7212BA00C06385 /* main.m */; };
+		49A819CE1F7212BA00C06385 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819CD1F7212BA00C06385 /* ViewController.m */; };
+		49A819D01F7212BA00C06385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A819CF1F7212BA00C06385 /* Assets.xcassets */; };
+		49A819D31F7212BA00C06385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A819D11F7212BA00C06385 /* Main.storyboard */; };
+		49A819DC1F7212E500C06385 /* ChatUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819D91F7212E500C06385 /* ChatUser.m */; };
+		49A819DD1F7212E500C06385 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819DB1F7212E500C06385 /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,16 +30,42 @@
 		49A8199E1F72117B00C06385 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49A819A01F72117B00C06385 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49A819A11F72117B00C06385 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		49A819A31F72117B00C06385 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		49A819A41F72117B00C06385 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		49A819A71F72117B00C06385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49A819A91F72117B00C06385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49A819AC1F72117B00C06385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49A819AE1F72117B00C06385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A819B41F7211CA00C06385 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		49A819B51F7211CA00C06385 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		49A819B61F7211CA00C06385 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		49A819B71F7211CA00C06385 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		49A819B81F7211CA00C06385 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		49A819B91F7211CA00C06385 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		49A819BA1F7211CA00C06385 /* ServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerViewController.h; sourceTree = "<group>"; };
+		49A819BB1F7211CA00C06385 /* ServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerViewController.m; sourceTree = "<group>"; };
+		49A819C41F7212BA00C06385 /* SocketServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A819C61F7212BA00C06385 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49A819C71F7212BA00C06385 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49A819CA1F7212BA00C06385 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49A819CC1F7212BA00C06385 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49A819CD1F7212BA00C06385 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49A819CF1F7212BA00C06385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49A819D21F7212BA00C06385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A819D41F7212BA00C06385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A819D81F7212E500C06385 /* ChatUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatUser.h; sourceTree = "<group>"; };
+		49A819D91F7212E500C06385 /* ChatUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatUser.m; sourceTree = "<group>"; };
+		49A819DA1F7212E500C06385 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		49A819DB1F7212E500C06385 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		49A819971F72117B00C06385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A819C11F7212BA00C06385 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				49A8199C1F72117B00C06385 /* XSocket */,
+				49A819C51F7212BA00C06385 /* SocketServer */,
 				49A8199B1F72117B00C06385 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				49A8199A1F72117B00C06385 /* XSocket.app */,
+				49A819C41F7212BA00C06385 /* SocketServer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,10 +96,16 @@
 		49A8199C1F72117B00C06385 /* XSocket */ = {
 			isa = PBXGroup;
 			children = (
+				49A819B61F7211CA00C06385 /* GCDAsyncSocket.h */,
+				49A819B71F7211CA00C06385 /* GCDAsyncSocket.m */,
+				49A819B41F7211CA00C06385 /* ChatViewController.h */,
+				49A819B51F7211CA00C06385 /* ChatViewController.m */,
+				49A819B81F7211CA00C06385 /* MainViewController.h */,
+				49A819B91F7211CA00C06385 /* MainViewController.m */,
+				49A819BA1F7211CA00C06385 /* ServerViewController.h */,
+				49A819BB1F7211CA00C06385 /* ServerViewController.m */,
 				49A819A01F72117B00C06385 /* AppDelegate.h */,
 				49A819A11F72117B00C06385 /* AppDelegate.m */,
-				49A819A31F72117B00C06385 /* ViewController.h */,
-				49A819A41F72117B00C06385 /* ViewController.m */,
 				49A819A61F72117B00C06385 /* Main.storyboard */,
 				49A819A91F72117B00C06385 /* Assets.xcassets */,
 				49A819AB1F72117B00C06385 /* LaunchScreen.storyboard */,
@@ -75,6 +119,33 @@
 			isa = PBXGroup;
 			children = (
 				49A8199E1F72117B00C06385 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49A819C51F7212BA00C06385 /* SocketServer */ = {
+			isa = PBXGroup;
+			children = (
+				49A819D81F7212E500C06385 /* ChatUser.h */,
+				49A819D91F7212E500C06385 /* ChatUser.m */,
+				49A819DA1F7212E500C06385 /* GCDAsyncSocket.h */,
+				49A819DB1F7212E500C06385 /* GCDAsyncSocket.m */,
+				49A819C61F7212BA00C06385 /* AppDelegate.h */,
+				49A819C71F7212BA00C06385 /* AppDelegate.m */,
+				49A819CC1F7212BA00C06385 /* ViewController.h */,
+				49A819CD1F7212BA00C06385 /* ViewController.m */,
+				49A819CF1F7212BA00C06385 /* Assets.xcassets */,
+				49A819D11F7212BA00C06385 /* Main.storyboard */,
+				49A819D41F7212BA00C06385 /* Info.plist */,
+				49A819C91F7212BA00C06385 /* Supporting Files */,
+			);
+			path = SocketServer;
+			sourceTree = "<group>";
+		};
+		49A819C91F7212BA00C06385 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49A819CA1F7212BA00C06385 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -99,6 +170,23 @@
 			productReference = 49A8199A1F72117B00C06385 /* XSocket.app */;
 			productType = "com.apple.product-type.application";
 		};
+		49A819C31F7212BA00C06385 /* SocketServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A819D51F7212BA00C06385 /* Build configuration list for PBXNativeTarget "SocketServer" */;
+			buildPhases = (
+				49A819C01F7212BA00C06385 /* Sources */,
+				49A819C11F7212BA00C06385 /* Frameworks */,
+				49A819C21F7212BA00C06385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketServer;
+			productName = SocketServer;
+			productReference = 49A819C41F7212BA00C06385 /* SocketServer.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -109,6 +197,10 @@
 				ORGANIZATIONNAME = "刘庆";
 				TargetAttributes = {
 					49A819991F72117B00C06385 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					49A819C31F7212BA00C06385 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
@@ -128,6 +220,7 @@
 			projectRoot = "";
 			targets = (
 				49A819991F72117B00C06385 /* XSocket */,
+				49A819C31F7212BA00C06385 /* SocketServer */,
 			);
 		};
 /* End PBXProject section */
@@ -143,6 +236,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49A819C21F7212BA00C06385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A819D01F7212BA00C06385 /* Assets.xcassets in Resources */,
+				49A819D31F7212BA00C06385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -150,9 +252,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A819A51F72117B00C06385 /* ViewController.m in Sources */,
+				49A819BE1F7211CA00C06385 /* MainViewController.m in Sources */,
+				49A819BD1F7211CA00C06385 /* GCDAsyncSocket.m in Sources */,
 				49A819A21F72117B00C06385 /* AppDelegate.m in Sources */,
+				49A819BC1F7211CA00C06385 /* ChatViewController.m in Sources */,
 				49A8199F1F72117B00C06385 /* main.m in Sources */,
+				49A819BF1F7211CA00C06385 /* ServerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A819C01F7212BA00C06385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A819DC1F7212E500C06385 /* ChatUser.m in Sources */,
+				49A819DD1F7212E500C06385 /* GCDAsyncSocket.m in Sources */,
+				49A819CE1F7212BA00C06385 /* ViewController.m in Sources */,
+				49A819CB1F7212BA00C06385 /* main.m in Sources */,
+				49A819C81F7212BA00C06385 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +290,14 @@
 				49A819AC1F72117B00C06385 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		49A819D11F7212BA00C06385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A819D21F7212BA00C06385 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,6 +417,36 @@
 			};
 			name = Release;
 		};
+		49A819D61F7212BA00C06385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SocketServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lq.kubile.SocketServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		49A819D71F7212BA00C06385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SocketServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lq.kubile.SocketServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -309,6 +464,14 @@
 			buildConfigurations = (
 				49A819B21F72117B00C06385 /* Debug */,
 				49A819B31F72117B00C06385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49A819D51F7212BA00C06385 /* Build configuration list for PBXNativeTarget "SocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A819D61F7212BA00C06385 /* Debug */,
+				49A819D71F7212BA00C06385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
