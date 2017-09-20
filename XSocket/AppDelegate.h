@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class GCDAsyncSocket;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) GCDAsyncSocket *severtSocket;
 
 
 @end

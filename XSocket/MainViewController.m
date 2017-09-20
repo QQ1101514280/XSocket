@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "ServerViewController.h"
 
 @interface MainViewController ()
 
@@ -16,6 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+- (IBAction)showServerVC:(id)sender {
+    ServerViewController *svc = ServerViewController.shareServerViewController;
+    if (!svc) {
+        UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        svc = [storyBoard instantiateViewControllerWithIdentifier:@"ServerVC"];
+    }
+    [self.navigationController pushViewController:svc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

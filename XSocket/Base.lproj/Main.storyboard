@@ -198,6 +198,9 @@
                                     <constraint firstAttribute="height" constant="40" id="Gwt-nc-5jS"/>
                                 </constraints>
                                 <state key="normal" title="启动为服务端"/>
+                                <connections>
+                                    <action selector="showServerVC:" destination="AGo-jp-vnZ" eventType="touchUpInside" id="Nop-z5-Pud"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -223,7 +226,7 @@
         <!--服务端-->
         <scene sceneID="3Lm-i5-J5k">
             <objects>
-                <viewController id="BAM-Bf-zrf" customClass="ServerViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ServerVC" id="BAM-Bf-zrf" customClass="ServerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dZa-ar-on7"/>
                         <viewControllerLayoutGuide type="bottom" id="skF-MA-vOP"/>
@@ -233,7 +236,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入端口号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dUy-se-lzG">
-                                <rect key="frame" x="40" y="74" width="120" height="30"/>
+                                <rect key="frame" x="40" y="30" width="120" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="Ota-E3-CBB"/>
                                     <constraint firstAttribute="height" constant="30" id="R3l-u7-J28"/>
@@ -242,8 +245,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUh-9w-d6x">
-                                <rect key="frame" x="180" y="74" width="100" height="30"/>
+                            <button opaque="NO" tag="99" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUh-9w-d6x">
+                                <rect key="frame" x="180" y="30" width="100" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <rect key="contentStretch" x="0.050000000000000003" y="0.0" width="1" height="1"/>
                                 <constraints>
@@ -256,7 +259,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HIR-Kt-SVW">
-                                <rect key="frame" x="40" y="124" width="240" height="414"/>
+                                <rect key="frame" x="40" y="80" width="240" height="458"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -274,10 +277,17 @@
                             <constraint firstItem="OUh-9w-d6x" firstAttribute="top" secondItem="dZa-ar-on7" secondAttribute="bottom" constant="10" id="vrV-HE-QwL"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="服务端" id="d1t-60-GB3"/>
+                    <navigationItem key="navigationItem" title="服务端" id="d1t-60-GB3">
+                        <barButtonItem key="rightBarButtonItem" title="挂起服务" id="ePm-Kc-dhi">
+                            <connections>
+                                <action selector="hiddenServer:" destination="BAM-Bf-zrf" id="23J-Mg-ky2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="logTextView" destination="HIR-Kt-SVW" id="Jld-v3-JNv"/>
                         <outlet property="protTextF" destination="dUy-se-lzG" id="G6k-tO-mT4"/>
+                        <outlet property="startButton" destination="OUh-9w-d6x" id="MQG-T8-axf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OEc-f2-0mg" userLabel="First Responder" sceneMemberID="firstResponder"/>

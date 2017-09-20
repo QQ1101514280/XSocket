@@ -113,7 +113,7 @@
                             [_chatUserArray[i].scoket writeData:[[NSString stringWithFormat:@"%@:%@",@"我",dict[@"message"]] dataUsingEncoding:NSUTF8StringEncoding] withTimeout:-1 tag:0];
                             [clientSocket readDataWithTimeout:-1 tag:0];
                         }else {
-                            [_chatUserArray[i].scoket writeData:[[NSString stringWithFormat:@"%@:%@",_chatUserArray[i].name,dict[@"message"]] dataUsingEncoding:NSUTF8StringEncoding] withTimeout:-1 tag:0];
+                            [_chatUserArray[i].scoket writeData:[[NSString stringWithFormat:@"%@:%@",_chatUserArray[x].name,dict[@"message"]] dataUsingEncoding:NSUTF8StringEncoding] withTimeout:-1 tag:0];
                             [clientSocket readDataWithTimeout:-1 tag:0];
                         }
                     }

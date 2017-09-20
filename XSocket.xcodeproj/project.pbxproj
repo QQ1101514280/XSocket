@@ -23,6 +23,7 @@
 		49A819D31F7212BA00C06385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A819D11F7212BA00C06385 /* Main.storyboard */; };
 		49A819DC1F7212E500C06385 /* ChatUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819D91F7212E500C06385 /* ChatUser.m */; };
 		49A819DD1F7212E500C06385 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A819DB1F7212E500C06385 /* GCDAsyncSocket.m */; };
+		49D00ADD1F729DAD003C9D7A /* ChatUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D00ADC1F729DAD003C9D7A /* ChatUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,8 @@
 		49A819D91F7212E500C06385 /* ChatUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatUser.m; sourceTree = "<group>"; };
 		49A819DA1F7212E500C06385 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		49A819DB1F7212E500C06385 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		49D00ADB1F729DAD003C9D7A /* ChatUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatUser.h; sourceTree = "<group>"; };
+		49D00ADC1F729DAD003C9D7A /* ChatUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				49A819B91F7211CA00C06385 /* MainViewController.m */,
 				49A819BA1F7211CA00C06385 /* ServerViewController.h */,
 				49A819BB1F7211CA00C06385 /* ServerViewController.m */,
+				49D00ADB1F729DAD003C9D7A /* ChatUser.h */,
+				49D00ADC1F729DAD003C9D7A /* ChatUser.m */,
 				49A819A01F72117B00C06385 /* AppDelegate.h */,
 				49A819A11F72117B00C06385 /* AppDelegate.m */,
 				49A819A61F72117B00C06385 /* Main.storyboard */,
@@ -198,6 +203,7 @@
 				TargetAttributes = {
 					49A819991F72117B00C06385 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4RQL84JX5S;
 						ProvisioningStyle = Automatic;
 					};
 					49A819C31F7212BA00C06385 = {
@@ -256,6 +262,7 @@
 				49A819BD1F7211CA00C06385 /* GCDAsyncSocket.m in Sources */,
 				49A819A21F72117B00C06385 /* AppDelegate.m in Sources */,
 				49A819BC1F7211CA00C06385 /* ChatViewController.m in Sources */,
+				49D00ADD1F729DAD003C9D7A /* ChatUser.m in Sources */,
 				49A8199F1F72117B00C06385 /* main.m in Sources */,
 				49A819BF1F7211CA00C06385 /* ServerViewController.m in Sources */,
 			);
@@ -399,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4RQL84JX5S;
 				INFOPLIST_FILE = XSocket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.lq.kubile.XSocket;
@@ -410,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4RQL84JX5S;
 				INFOPLIST_FILE = XSocket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.lq.kubile.XSocket;

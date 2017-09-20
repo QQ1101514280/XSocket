@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class GCDAsyncSocket;
 @interface ServerViewController : UIViewController
-
+@property (class, nullable, nonatomic, strong) ServerViewController *shareServerViewController;
 @end
