@@ -57,8 +57,8 @@
     }
     NSString *str = [NSString stringWithFormat:@"{\"messageMode\":\"1\",\"message\":\"%@\"}",_sendText.text];
     NSData *data = [str dataUsingEncoding:NSUTF8StringEncoding];
-    [_mysoket writeData:data withTimeout:8 tag:666];
-    [_mysoket readDataWithTimeout:8 tag:666];
+    [_mysoket writeData:data withTimeout:-1 tag:666];
+    [_mysoket readDataWithTimeout:-1 tag:666];
 }
 - (IBAction)login:(id)sender {
     [self connectToHost];
@@ -66,7 +66,7 @@
     if (_loginButton.tag == 10) {
         NSString *str = [NSString stringWithFormat:@"{\"messageMode\":\"0\",\"name\":\"%@\",\"pwd\":\"%@\"}",_nameTextF.text,_pwdTextF.text];
         [_mysoket writeData:[str  dataUsingEncoding:NSUTF8StringEncoding] withTimeout:8 tag:888];
-        [_mysoket readDataWithTimeout:8 tag:888];
+        [_mysoket readDataWithTimeout:-1 tag:888];
     }
     else {
         [_mysoket disconnect];
